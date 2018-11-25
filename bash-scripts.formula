@@ -5,6 +5,6 @@ class MyBashScriptsCollection < Formula
   head 'https://github.com/Dmitry404/bash-scripts.git'
 
   def install
-    bin.install 'update-jenv-paths.sh'
+    bin.install 'updatejenvpaths.sh'
   end
 end
