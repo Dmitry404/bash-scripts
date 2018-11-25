@@ -1,0 +1,10 @@
+require 'formula'
+
+class MyBashScriptsCollection < Formula
+  homepage 'github.com/dmitry404/bash-scripts
+  head 'git@github.com:Dmitry404/bash-scripts.git'
+
+  def install
+    bin.install 'update-jenv-paths.sh'
+  end
+end
